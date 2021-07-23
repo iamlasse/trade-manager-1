@@ -1,6 +1,6 @@
-# Salvia-kit Dashboard v7 create-react-app
+# Salvia-kit frontend v7 create-react-app
 
-![Salvia-kit Dashboard v7](https://res.cloudinary.com/beloved/image/upload/v1626789448/dashboards/dashv7_stzudh.jpg)
+![Salvia-kit frontend v7](https://res.cloudinary.com/beloved/image/upload/v1626789448/frontends/dashv7_stzudh.jpg)
 
 ## 📋 Documentation
 You can see the documentation on [http://localhost:3000/admin/documentation](http://localhost:3000/admin/documentation)
@@ -12,7 +12,7 @@ You can see the documentation on [http://localhost:3000/admin/documentation](htt
 | <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
 
 ## Contribution
-If you would like to contribute on the project, fixing bugs, please follow our [Contribution guide](https://github.com/salvia-kit/dashboard-v7-cra/blob/main/contributing.md)
+If you would like to contribute on the project, fixing bugs, please follow our [Contribution guide](https://github.com/salvia-kit/frontend-v7-cra/blob/main/contributing.md)
 
 First, run the development server:
 
@@ -94,4 +94,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-

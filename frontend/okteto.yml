@@ -1,5 +1,5 @@
-name: dashboard
-image: iamlasse/trade-dashboard:dev
+name: frontend
+image: iamlasse/trade-frontend:dev
 command: yarn start
 sync:
   - .:/src

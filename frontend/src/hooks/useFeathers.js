@@ -68,7 +68,7 @@ export const useFeathers = () => {
   }
 
   useEffect(() => {
-    const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3030'
+    const API_URL = process.env.REACT_APP_API_URL || 'https://trade-manager-trade-app-trade-iamlasse.cloud.okteto.net/api'
     console.log(`API_URL`, API_URL)
     const options = { transports: ["websocket"], pingTimeout: 3000, pingInterval: 5000 }
     const socketIO = io(API_URL, options)

@@ -38,7 +38,7 @@ export default function Docs() {
           </div>
           <div className="pl-5 flex mb-3">
             <FolderIcon />
-            <span className="pl-2">dashboard</span>
+            <span className="pl-2">frontend</span>
           </div>
           <div className="pl-11 flex mb-3">
             <FolderIcon />
@@ -94,7 +94,7 @@ export default function Docs() {
       <section className="mb-16 px-3 md:px-8 py-8 bg-white">
         <h2 className="text-2xl font-medium">File Structure explained</h2>
         <p className="mt-5">
-          We will focus on <strong>dashboard</strong> folder and its
+          We will focus on <strong>frontend</strong> folder and its
           <strong className="pl-1">subfolders</strong> which contain all the
           logic.
         </p>
@@ -109,7 +109,7 @@ export default function Docs() {
             <p className="pl-2">
               contains the
               <strong className="px-1">DashboardProvider</strong>component where
-              all the dashboard logic is placed. this will then be reused in
+              all the frontend logic is placed. this will then be reused in
               other components. it handles the closing of the sidenav when the
               route changes or on click outside.
             </p>
@@ -220,7 +220,7 @@ export default function Docs() {
         <div>
           <div className="flex flex-wrap md:flex-nowrap mt-8">
             <JsIcon /> <strong className="px-1">layout.js :</strong> Contains
-            the<strong className="px-1">DashboardLayout</strong>
+            the<strong className="px-1">frontendLayout</strong>
             component used as the layout of the application
           </div>
         </div>
@@ -231,7 +231,7 @@ export default function Docs() {
         <ul className="pl-6 list-disc mt-4">
           <li className="mb-3">
             Add your routes in the
-            <strong className="px-1">dashboard/sidenavigation/data.js</strong>
+            <strong className="px-1">frontend/sidenavigation/data.js</strong>
             file
           </li>
           <li className="mb-3">
@@ -240,7 +240,7 @@ export default function Docs() {
           </li>
           <li className="mb-3">
             Wrap your routes in <strong>app.js</strong> by the
-            <strong className="px-1">DashboardLayout</strong>component
+            <strong className="px-1">frontendLayout</strong>component
           </li>
         </ul>
       </section>
@@ -248,7 +248,7 @@ export default function Docs() {
       <section className="mb-16 px-3 md:px-8 py-8 bg-white">
         <h2 className="text-2xl font-medium">Auto Format and Linting</h2>
         <div className="mt-4">
-          The dashboard is provided with <strong>eslint</strong>,
+          The frontend is provided with <strong>eslint</strong>,
           <strong className="px-1">prettier</strong>,
           <strong className="px-1">lint-staged</strong>et
           <strong className="px-1">husky.</strong>Before each commit, the
@@ -261,24 +261,24 @@ export default function Docs() {
       <section className="mb-16 px-3 md:px-8 py-8 bg-white">
         <h2 className="text-2xl font-medium">Export</h2>
         <p className="mt-4">
-          As there is no vendor lock-in, if you already have a dashboard, you
+          As there is no vendor lock-in, if you already have a frontend, you
           can just copy the small configuration from
           <strong className="px-1">tailwind.config.js</strong>and paste it into
           your
           <strong className="px-1">tailwind.config.js</strong>configuration
           file. then copy the
-          <strong className="px-1">dashboard</strong>folder into your project
+          <strong className="px-1">frontend</strong>folder into your project
         </p>
         <div className="mt-8">
           <ul className="pl-6 list-disc mt-4">
             <li className="mb-3">
               Add your routes in the
-              <strong className="px-1">dashboard/sidenavigation/data.js</strong>
+              <strong className="px-1">frontend/sidenavigation/data.js</strong>
               file
             </li>
             <li className="mb-3">
               Replace your layout by the
-              <strong className="px-1">DashboardLayout</strong>component
+              <strong className="px-1">frontendLayout</strong>component
             </li>
           </ul>
         </div>
@@ -298,7 +298,7 @@ export default function Docs() {
           <strong className="px-1">style.module.css</strong>file
         </p>
         <p className="mt-5">
-          In the <strong> dashboard/layout.js</strong> file, the
+          In the <strong> frontend/layout.js</strong> file, the
           <strong className="pl-1">Sidenavigation</strong> component has as prop
           <strong className="pl-1">mobilePosition</strong>, which indicates the
           positioning of the sidenav on mobile.

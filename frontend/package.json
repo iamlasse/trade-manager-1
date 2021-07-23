@@ -1,5 +1,5 @@
 {
-  "name": "dashboard-v7-cra",
+  "name": "frontend-v7-cra",
   "version": "1.0.0",
   "author": {
     "name": "Enoch Ndika"
@@ -7,13 +7,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/salvia-kit/dashboard-v7-cra.git"
+    "url": "https://github.com/salvia-kit/frontend-v7-cra.git"
   },
   "keywords": [
     "ui",
     "react",
     "components",
-    "dashboard",
+    "frontend",
     "admin",
     "tailwindcss",
     "layout"

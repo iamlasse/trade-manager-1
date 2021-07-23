@@ -9,7 +9,7 @@ const style = {
   main: `h-screen overflow-auto pb-36 pt-8 px-2 md:pb-8 md:pt-4 md:px-8 lg:pt-0`,
 };
 
-export default function DashboardLayout({ children }) {
+export default function frontendLayout({ children }) {
   return (
     <DashboardProvider>
       <div className={style.container}>
