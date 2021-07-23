@@ -52,15 +52,15 @@ spec:
               value: mongodb
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 3030
               protocol: TCP
           livenessProbe:
             periodSeconds: 1
             httpGet:
               path: /api/healthz
-              port: 8080
+              port: 3030
           readinessProbe:
             periodSeconds: 1
             httpGet:
               path: /api/healthz
-              port: 8080
+              port: 3030
