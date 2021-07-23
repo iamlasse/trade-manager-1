@@ -23,7 +23,6 @@ spec:
           image: {{ .Values.api.image }}:{{ .Values.tag }}
           command:
             - yarn
-            - load
           env:
             - name: MONGODB_PASSWORD
               valueFrom:
