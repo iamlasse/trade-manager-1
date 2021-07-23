@@ -1,5 +1,5 @@
-name: frontend
-image: okteto/movies-frontend:dev
+name: dashboard
+image: iamlasse/trade-dashboard:dev
 command: yarn start
 sync:
   - .:/src

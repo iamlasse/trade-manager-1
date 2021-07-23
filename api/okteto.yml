@@ -1,9 +1,9 @@
 name: api
-command: ["bash"]
-forward:
-  - 8080:8080
-  - 9229:9229
+autocreate: true
+image: okteto/node:14
+command: bash
 sync:
-  - .:/src
-persistentVolume:
-  enabled: false
+- .:/usr/src/app
+forward:
+- 9239:9239
+- 3030:3000
