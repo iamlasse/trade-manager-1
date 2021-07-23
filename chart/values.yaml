@@ -4,9 +4,9 @@ api:
   replicaCount: 1
   image: okteto.dev/api
 
-frontend:
+dashboard:
   replicaCount: 1
-  image: okteto.dev/frontend
+  image: okteto.dev/dashboard
 
 mongodb:
   password: "Password!1@2"
